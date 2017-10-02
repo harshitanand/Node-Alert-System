@@ -16,5 +16,17 @@
   "GenericModel": {
     "dataSource": "postgreDS",
     "public": false
+  },
+  "Alert": {
+    "dataSource": "postgreDS",
+    "public": true
+  },
+  "TranscriptionTask": {
+    "dataSource": "postgreDS",
+    "public": true
+  },
+  "Pharmacist": {
+    "dataSource": "postgreDS",
+    "public": true
   }
 }

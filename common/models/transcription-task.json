@@ -1,0 +1,26 @@
+{
+  "name": "TranscriptionTask",
+  "plural": "TranscriptionTasks",
+  "base": "GenericModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "deliveredAt": {
+      "type": "string",
+      "required": true
+    },
+    "completedAt": {
+      "type": "date"
+    },
+    "active": {
+      "type": "boolean",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

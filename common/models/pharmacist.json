@@ -1,0 +1,58 @@
+{
+  "name": "Pharmacist",
+  "plural": "Pharmacists",
+  "base": "GenericModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "firstName": {
+      "type": "string",
+      "required": true
+    },
+    "lastName": {
+      "type": "string",
+      "required": true
+    },
+    "mobileNumber": {
+      "type": "string",
+      "required": true
+    },
+    "alternateMobile": {
+      "type": "string"
+    },
+    "emailId": {
+      "type": "string",
+      "required": true
+    },
+    "addressDetails": {
+      "type": "string",
+      "required": true
+    },
+    "otpVerified": {
+      "type": "boolean",
+      "required": true,
+      "default": false
+    },
+    "profileVerificationSatus": {
+      "type": "boolean",
+      "required": true,
+      "default": false
+    },
+    "completedTranscriptions": {
+      "type": "number",
+      "required": true,
+      "default": 0
+    },
+    "allotedTranscriptions": {
+      "type": "number",
+      "required": true,
+      "default": 0
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
