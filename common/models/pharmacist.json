@@ -49,10 +49,26 @@
       "type": "number",
       "required": true,
       "default": 0
+    },
+    "avgCustomerRating": {
+      "type": "number",
+      "required": true,
+      "default": 1.0
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "transcriptionTasks": {
+      "type": "hasMany",
+      "model": "TranscriptionTask",
+      "foreignKey": "pharmacistId"
+    },
+    "customerComments": {
+      "type": "hasMany",
+      "model": "customerComment",
+      "foreignKey": "pharmacistId"
+    }
+  },
   "acls": [],
   "methods": {}
 }
