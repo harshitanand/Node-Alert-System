@@ -17,7 +17,12 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "reference_id": {
+      "type": "belongsTo",
+      "model": "TranscriptionTask"
+    }
+  },
   "acls": [],
   "methods": {}
 }
