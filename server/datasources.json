@@ -1,0 +1,12 @@
+{
+  "postgreDS": {
+    "host": "localhost",
+    "port": 5432,
+    "url": "postgres://root:postgre@localhost/alertsystem",
+    "database": "alertsystem",
+    "password": "postgre",
+    "name": "postgreDS",
+    "user": "root",
+    "connector": "postgresql"
+  }
+}
