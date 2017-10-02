@@ -28,5 +28,9 @@
   "Pharmacist": {
     "dataSource": "postgreDS",
     "public": true
+  },
+  "user": {
+    "dataSource": "postgreDS",
+    "public": true
   }
 }
