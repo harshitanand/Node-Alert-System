@@ -1,5 +1,3 @@
 'use strict';
 
-module.exports = function(Pharmacist) {
-
-};
+module.exports = Pharmacist => {};
